@@ -8,7 +8,11 @@
         Form4.Show()
     End Sub
 
-    Private Sub ListaFacturas_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListaFacturas.SelectedIndexChanged
+    Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        holausu.Text = Form1.usu.Text
+    End Sub
+
+    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
 
     End Sub
 End Class
