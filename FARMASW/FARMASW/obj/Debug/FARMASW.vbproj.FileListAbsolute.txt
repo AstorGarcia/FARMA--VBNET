@@ -1,0 +1,15 @@
+C:\Users\ALUMNOS\source\repos\FARMASW\FARMASW\bin\Debug\FARMASW.exe.config
+C:\Users\ALUMNOS\source\repos\FARMASW\FARMASW\bin\Debug\FARMASW.exe
+C:\Users\ALUMNOS\source\repos\FARMASW\FARMASW\bin\Debug\FARMASW.pdb
+C:\Users\ALUMNOS\source\repos\FARMASW\FARMASW\bin\Debug\FARMASW.xml
+C:\Users\ALUMNOS\source\repos\FARMASW\FARMASW\obj\Debug\FARMASW.vbproj.AssemblyReference.cache
+C:\Users\ALUMNOS\source\repos\FARMASW\FARMASW\obj\Debug\FARMASW.Form1.resources
+C:\Users\ALUMNOS\source\repos\FARMASW\FARMASW\obj\Debug\FARMASW.Resources.resources
+C:\Users\ALUMNOS\source\repos\FARMASW\FARMASW\obj\Debug\FARMASW.vbproj.GenerateResource.cache
+C:\Users\ALUMNOS\source\repos\FARMASW\FARMASW\obj\Debug\FARMASW.vbproj.CoreCompileInputs.cache
+C:\Users\ALUMNOS\source\repos\FARMASW\FARMASW\obj\Debug\FARMASW.exe
+C:\Users\ALUMNOS\source\repos\FARMASW\FARMASW\obj\Debug\FARMASW.xml
+C:\Users\ALUMNOS\source\repos\FARMASW\FARMASW\obj\Debug\FARMASW.pdb
+C:\Users\ALUMNOS\source\repos\FARMASW\FARMASW\obj\Debug\FARMASW.Form2.resources
+C:\Users\ALUMNOS\source\repos\FARMASW\FARMASW\obj\Debug\FARMASW.Form3.resources
+C:\Users\ALUMNOS\source\repos\FARMASW\FARMASW\obj\Debug\FARMASW.Form4.resources
