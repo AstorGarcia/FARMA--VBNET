@@ -24,11 +24,11 @@ Partial Class Form4
     Private Sub InitializeComponent()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.Id_factura = New System.Windows.Forms.TextBox()
+        Me.Ven_factura = New System.Windows.Forms.TextBox()
+        Me.Dom_factura = New System.Windows.Forms.TextBox()
+        Me.Imp_factura = New System.Windows.Forms.TextBox()
+        Me.Cant_factura = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
@@ -54,40 +54,40 @@ Partial Class Form4
         Me.Button2.Text = "Crear"
         Me.Button2.UseVisualStyleBackColor = True
         '
-        'TextBox1
+        'Id_factura
         '
-        Me.TextBox1.Location = New System.Drawing.Point(29, 30)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox1.TabIndex = 2
+        Me.Id_factura.Location = New System.Drawing.Point(29, 30)
+        Me.Id_factura.Name = "Id_factura"
+        Me.Id_factura.Size = New System.Drawing.Size(100, 20)
+        Me.Id_factura.TabIndex = 2
         '
-        'TextBox2
+        'Ven_factura
         '
-        Me.TextBox2.Location = New System.Drawing.Point(29, 193)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox2.TabIndex = 3
+        Me.Ven_factura.Location = New System.Drawing.Point(29, 193)
+        Me.Ven_factura.Name = "Ven_factura"
+        Me.Ven_factura.Size = New System.Drawing.Size(100, 20)
+        Me.Ven_factura.TabIndex = 3
         '
-        'TextBox3
+        'Dom_factura
         '
-        Me.TextBox3.Location = New System.Drawing.Point(29, 154)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox3.TabIndex = 4
+        Me.Dom_factura.Location = New System.Drawing.Point(29, 154)
+        Me.Dom_factura.Name = "Dom_factura"
+        Me.Dom_factura.Size = New System.Drawing.Size(100, 20)
+        Me.Dom_factura.TabIndex = 4
         '
-        'TextBox4
+        'Imp_factura
         '
-        Me.TextBox4.Location = New System.Drawing.Point(29, 110)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox4.TabIndex = 5
+        Me.Imp_factura.Location = New System.Drawing.Point(29, 110)
+        Me.Imp_factura.Name = "Imp_factura"
+        Me.Imp_factura.Size = New System.Drawing.Size(100, 20)
+        Me.Imp_factura.TabIndex = 5
         '
-        'TextBox5
+        'Cant_factura
         '
-        Me.TextBox5.Location = New System.Drawing.Point(29, 73)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox5.TabIndex = 6
+        Me.Cant_factura.Location = New System.Drawing.Point(29, 73)
+        Me.Cant_factura.Name = "Cant_factura"
+        Me.Cant_factura.Size = New System.Drawing.Size(100, 20)
+        Me.Cant_factura.TabIndex = 6
         '
         'Label1
         '
@@ -145,11 +145,11 @@ Partial Class Form4
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.TextBox5)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.Cant_factura)
+        Me.Controls.Add(Me.Imp_factura)
+        Me.Controls.Add(Me.Dom_factura)
+        Me.Controls.Add(Me.Ven_factura)
+        Me.Controls.Add(Me.Id_factura)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Name = "Form4"
@@ -161,11 +161,11 @@ Partial Class Form4
 
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents Id_factura As TextBox
+    Friend WithEvents Ven_factura As TextBox
+    Friend WithEvents Dom_factura As TextBox
+    Friend WithEvents Imp_factura As TextBox
+    Friend WithEvents Cant_factura As TextBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label4 As Label
