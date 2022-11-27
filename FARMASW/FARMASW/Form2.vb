@@ -11,6 +11,9 @@ Public Class Form2
         Form4.Show()
     End Sub
 
+    Dim connectionString As String = "Server= localhost;database= farma;user id=root; password= ; convert zero datetime=True"
+    Public MysqlConexion As MySqlConnection = New MySqlConnection(connectionString)
+    Dim seleccion As MySqlCommand = New MySqlCommand
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         holausu.Text = Form1.usu.Text
 
@@ -35,9 +38,7 @@ Public Class Form2
 
     End Sub
 
-    Dim connectionString As String = "Server= localhost;database= farma;user id=root; password= ;"
-    Public MysqlConexion As MySqlConnection = New MySqlConnection(connectionString)
-    Dim seleccion As MySqlCommand = New MySqlCommand
+
 
     Private Sub conectar()
         Try

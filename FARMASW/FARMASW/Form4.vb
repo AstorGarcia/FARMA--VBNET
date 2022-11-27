@@ -1,6 +1,7 @@
 ﻿Imports MySql.Data.MySqlClient
 
 Public Class Form4
+
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Me.Hide()
         Form2.Show()
@@ -17,6 +18,7 @@ Public Class Form4
     End Sub
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
 
+
         If Id_factura.Text = "" Then
             MsgBox("Casilla Incompleta")
         ElseIf Cant_factura.Text = "" Then
@@ -32,10 +34,11 @@ Public Class Form4
         End If
     End Sub
     Public Sub Crear()
-        Dim fecha As String = Now.ToShortDateString("yyyy/MM/dd")
+
         Try
+            Dim fecha As String = Format(CDate(Ven_factura.Text), "yyyy/MM/dd")
             MysqlConexion.Open()
-            sql = "INSERT INTO Facturas(id_fac,cant_fac,imp_fac,dom_fac,ven_fac)VALUES(@id_fac,@cant_fac,@imp_fac,@dom_fac,@fecha)"
+            sql = "INSERT INTO Facturas(id_fac,cant_fac,imp_fac,dom_fac,ven_fac)VALUES(@id_fac,@cant_fac,@imp_fac,@dom_fac,@ven_fac)"
             cmd = New MySqlCommand(sql, MysqlConexion)
             Dim ad As MySqlParameter
             cmd.Parameters.AddWithValue("@id_fac", Id_factura.Text)
