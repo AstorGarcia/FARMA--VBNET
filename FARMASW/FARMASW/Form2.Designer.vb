@@ -36,7 +36,7 @@ Partial Class Form2
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(372, 304)
+        Me.Button1.Location = New System.Drawing.Point(782, 363)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(90, 35)
         Me.Button1.TabIndex = 2
@@ -45,7 +45,7 @@ Partial Class Form2
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(87, 304)
+        Me.Button2.Location = New System.Drawing.Point(207, 364)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(90, 35)
         Me.Button2.TabIndex = 3
@@ -55,7 +55,7 @@ Partial Class Form2
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(9, 9)
+        Me.Label1.Location = New System.Drawing.Point(13, 21)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(32, 13)
         Me.Label1.TabIndex = 4
@@ -64,7 +64,7 @@ Partial Class Form2
         'holausu
         '
         Me.holausu.AutoSize = True
-        Me.holausu.Location = New System.Drawing.Point(47, 9)
+        Me.holausu.Location = New System.Drawing.Point(42, 21)
         Me.holausu.Name = "holausu"
         Me.holausu.Size = New System.Drawing.Size(39, 13)
         Me.holausu.TabIndex = 5
@@ -73,7 +73,7 @@ Partial Class Form2
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(104, 39)
+        Me.Label2.Location = New System.Drawing.Point(204, 39)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(73, 13)
         Me.Label2.TabIndex = 6
@@ -82,7 +82,7 @@ Partial Class Form2
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(378, 39)
+        Me.Label3.Location = New System.Drawing.Point(779, 39)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(72, 13)
         Me.Label3.TabIndex = 7
@@ -93,23 +93,24 @@ Partial Class Form2
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Location = New System.Drawing.Point(12, 65)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(247, 233)
+        Me.DataGridView1.Size = New System.Drawing.Size(545, 269)
         Me.DataGridView1.TabIndex = 9
         '
         'DataGridView2
         '
         Me.DataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView2.Location = New System.Drawing.Point(282, 65)
+        Me.DataGridView2.Location = New System.Drawing.Point(642, 65)
         Me.DataGridView2.Name = "DataGridView2"
-        Me.DataGridView2.Size = New System.Drawing.Size(268, 233)
+        Me.DataGridView2.Size = New System.Drawing.Size(364, 269)
         Me.DataGridView2.TabIndex = 10
         '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.BackColor = System.Drawing.Color.PaleGreen
-        Me.ClientSize = New System.Drawing.Size(562, 368)
+        Me.ClientSize = New System.Drawing.Size(1017, 410)
         Me.Controls.Add(Me.DataGridView2)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.Label3)
