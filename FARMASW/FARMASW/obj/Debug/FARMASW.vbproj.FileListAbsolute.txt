@@ -28,7 +28,6 @@ C:\Users\Alumno\Desktop\FARMA--VBNET-main\FARMASW\FARMASW\obj\Debug\FARMASW.vbpr
 C:\Users\Alumno\Desktop\FARMA--VBNET-main\FARMASW\FARMASW\obj\Debug\FARMASW.exe
 C:\Users\Alumno\Desktop\FARMA--VBNET-main\FARMASW\FARMASW\obj\Debug\FARMASW.xml
 C:\Users\Alumno\Desktop\FARMA--VBNET-main\FARMASW\FARMASW\obj\Debug\FARMASW.pdb
-C:\Users\Alumno\Desktop\FARMA--VBNET-main\FARMASW\FARMASW\bin\Debug\MySql.Data.dll
 C:\Users\Alumno\Desktop\FARMA--VBNET-main\FARMASW\FARMASW\bin\Debug\Google.Protobuf.dll
 C:\Users\Alumno\Desktop\FARMA--VBNET-main\FARMASW\FARMASW\bin\Debug\ZstdNet.dll
 C:\Users\Alumno\Desktop\FARMA--VBNET-main\FARMASW\FARMASW\bin\Debug\K4os.Compression.LZ4.Streams.dll

@@ -22,12 +22,15 @@ Partial Class Form1
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.register = New System.Windows.Forms.Label()
         Me.usu = New System.Windows.Forms.TextBox()
         Me.contra = New System.Windows.Forms.TextBox()
         Me.usuariolog = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Ingresar = New System.Windows.Forms.Button()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'register
@@ -81,12 +84,22 @@ Partial Class Form1
         Me.Ingresar.Text = "Ingresar"
         Me.Ingresar.UseVisualStyleBackColor = True
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(3, -50)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(356, 167)
+        Me.PictureBox1.TabIndex = 6
+        Me.PictureBox1.TabStop = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.PaleGreen
         Me.ClientSize = New System.Drawing.Size(371, 267)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Ingresar)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.usuariolog)
@@ -95,6 +108,7 @@ Partial Class Form1
         Me.Controls.Add(Me.register)
         Me.Name = "Form1"
         Me.Text = "FARMA"
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -106,4 +120,5 @@ Partial Class Form1
     Friend WithEvents usuariolog As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Ingresar As Button
+    Friend WithEvents PictureBox1 As PictureBox
 End Class
